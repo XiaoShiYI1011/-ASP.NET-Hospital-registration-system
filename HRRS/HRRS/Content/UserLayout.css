@@ -1,0 +1,49 @@
+﻿.navbar {
+    margin-bottom: 15px
+}
+
+.nav > li:hover {
+    background-color: #E7E7E7;
+}
+
+.foot {
+    background-color: #f8f8f8;
+    color: #333333;
+}
+
+.foot-right {
+    text-align: center;
+}
+
+    .foot-right > div {
+        width: 50%;
+        margin-left: 180px
+    }
+
+.foot-left,
+.foot-right {
+    margin-top: 15px;
+}
+
+.foot-left {
+    margin-top: 50px;
+}
+
+    .foot-left > h5 {
+        line-height: 25px;
+    }
+
+.foot-text {
+    text-align: center;
+    color: red;
+}
+
+.img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#copy {
+    text-align: center;
+    padding: 15px;
+}

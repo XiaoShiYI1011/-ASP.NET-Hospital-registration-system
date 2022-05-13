@@ -1,0 +1,9 @@
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\bin\Release\BLL.dll
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\bin\Release\BLL.pdb
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\bin\Release\DAL.dll
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\bin\Release\DAL.pdb
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\obj\Release\BLL.csprojAssemblyReference.cache
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\obj\Release\BLL.csproj.CopyComplete
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\obj\Release\BLL.dll
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\obj\Release\BLL.pdb

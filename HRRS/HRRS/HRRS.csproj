@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{87D474D6-640C-4012-BA04-F737F5E8D76A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HRRS</RootNamespace>
+    <AssemblyName>HRRS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Banner\bjxhyy.jpg" />
+    <Content Include="Assets\Banner\fddxfszsyy.jpg" />
+    <Content Include="Assets\Banner\gxykddyfsyy.jpg" />
+    <Content Include="Assets\Banner\gxzzzzqrmyy.jpg" />
+    <Content Include="Assets\Banner\qinyshu.jpg" />
+    <Content Include="Assets\Banner\zgjfjzbzqyy.jpg" />
+    <Content Include="Assets\Doctor_Imgs\D_001.jpg" />
+    <Content Include="Assets\Hospital_Imgs\H_001.jpg" />
+    <Content Include="Assets\Hospital_Imgs\H_002.jpg" />
+    <Content Include="Assets\Hospital_Imgs\H_003.jpg" />
+    <Content Include="Assets\Hospital_Imgs\H_004.jpg" />
+    <Content Include="Assets\Hospital_Imgs\H_005.jpg" />
+    <Content Include="Assets\Hospital_Imgs\H_006.jpg" />
+    <Content Include="Assets\Login_bg.jpg" />
+    <Content Include="Assets\User_Imgs\U_001.jpg" />
+    <Content Include="Assets\头像.svg" />
+    <Content Include="Assets\女医生.png" />
+    <Content Include="Assets\技术支持.jpg" />
+    <Content Include="Assets\男医生.png" />
+    <Content Include="Consults.aspx" />
+    <Content Include="Content\bootstrap-datetimepicker.min.css" />
+    <Content Include="DoctorDetails.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="HospitalDetails.aspx" />
+    <Content Include="ReplyList.aspx" />
+    <Content Include="ReplyUser.aspx" />
+    <Content Include="Script\bootstrap-datetimepicker.min.js" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\DoctorLayout.css" />
+    <Content Include="Content\UserLayout.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="DoctorIndex.aspx" />
+    <Content Include="DoctorList.aspx" />
+    <Content Include="DoctorLogin.aspx" />
+    <Content Include="Fail.aspx" />
+    <Content Include="HospitalList.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="ReservationInfo.aspx" />
+    <Content Include="UserLogin.aspx" />
+    <Content Include="Script\bootstrap.js" />
+    <Content Include="Script\bootstrap.min.js" />
+    <Content Include="Script\jQuery-3.6.0.js" />
+    <Content Include="UserInfo.aspx" />
+    <Content Include="UserRegister.aspx" />
+    <Content Include="UserReservationInfo.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Consults.aspx.cs">
+      <DependentUpon>Consults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consults.aspx.designer.cs">
+      <DependentUpon>Consults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorDetails.aspx.cs">
+      <DependentUpon>DoctorDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorDetails.aspx.designer.cs">
+      <DependentUpon>DoctorDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorIndex.aspx.cs">
+      <DependentUpon>DoctorIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorIndex.aspx.designer.cs">
+      <DependentUpon>DoctorIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorList.aspx.cs">
+      <DependentUpon>DoctorList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorList.aspx.designer.cs">
+      <DependentUpon>DoctorList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorLogin.aspx.cs">
+      <DependentUpon>DoctorLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorLogin.aspx.designer.cs">
+      <DependentUpon>DoctorLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorSendImgService.ashx.cs">
+      <DependentUpon>DoctorSendImgService.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorSendMessageService.ashx.cs">
+      <DependentUpon>DoctorSendMessageService.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Fail.aspx.cs">
+      <DependentUpon>Fail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fail.aspx.designer.cs">
+      <DependentUpon>Fail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetMessageList.cs" />
+    <Compile Include="GetMessageListService.ashx.cs">
+      <DependentUpon>GetMessageListService.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalDetails.aspx.cs">
+      <DependentUpon>HospitalDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HospitalDetails.aspx.designer.cs">
+      <DependentUpon>HospitalDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalList.aspx.cs">
+      <DependentUpon>HospitalList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HospitalList.aspx.designer.cs">
+      <DependentUpon>HospitalList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSite2.Master.cs">
+      <DependentUpon>MasterSite2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterSite2.Master.designer.cs">
+      <DependentUpon>MasterSite2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Message.cs" />
+    <Compile Include="MessageService.ashx.cs">
+      <DependentUpon>MessageService.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ReplyList.aspx.cs">
+      <DependentUpon>ReplyList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReplyList.aspx.designer.cs">
+      <DependentUpon>ReplyList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReplyUser.aspx.cs">
+      <DependentUpon>ReplyUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReplyUser.aspx.designer.cs">
+      <DependentUpon>ReplyUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReservationInfo.aspx.cs">
+      <DependentUpon>ReservationInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReservationInfo.aspx.designer.cs">
+      <DependentUpon>ReservationInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SendMessageService.ashx.cs">
+      <DependentUpon>SendMessageService.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="UserGetMessageList.cs" />
+    <Compile Include="UserGetMessageListService.ashx.cs">
+      <DependentUpon>UserGetMessageListService.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.aspx.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserLogin.aspx.designer.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSite.Master.cs">
+      <DependentUpon>MasterSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterSite.Master.designer.cs">
+      <DependentUpon>MasterSite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserInfo.aspx.cs">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserInfo.aspx.designer.cs">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserRegister.aspx.cs">
+      <DependentUpon>UserRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserRegister.aspx.designer.cs">
+      <DependentUpon>UserRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserReservationInfo.aspx.cs">
+      <DependentUpon>UserReservationInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserReservationInfo.aspx.designer.cs">
+      <DependentUpon>UserReservationInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserSendImgService.ashx.cs">
+      <DependentUpon>UserSendImgService.ashx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="MasterSite.Master" />
+    <Content Include="MasterSite2.Master" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="MessageService.ashx" />
+    <Content Include="SendMessageService.ashx" />
+    <Content Include="GetMessageListService.ashx" />
+    <Content Include="UserGetMessageListService.ashx" />
+    <Content Include="DoctorSendMessageService.ashx" />
+    <Content Include="UserSendImgService.ashx" />
+    <Content Include="DoctorSendImgService.ashx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{400925da-4865-47b5-87c6-b5262c8f0a5b}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{a4ded266-5f69-4359-94c7-0c56ca6a8888}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\ChatImg\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:44306/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

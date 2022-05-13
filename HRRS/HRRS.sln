@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRRS", "HRRS\HRRS.csproj", "{87D474D6-640C-4012-BA04-F737F5E8D76A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{A4DED266-5F69-4359-94C7-0C56CA6A8888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{400925DA-4865-47B5-87C6-B5262C8F0A5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87D474D6-640C-4012-BA04-F737F5E8D76A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D474D6-640C-4012-BA04-F737F5E8D76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D474D6-640C-4012-BA04-F737F5E8D76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D474D6-640C-4012-BA04-F737F5E8D76A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4DED266-5F69-4359-94C7-0C56CA6A8888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DED266-5F69-4359-94C7-0C56CA6A8888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4DED266-5F69-4359-94C7-0C56CA6A8888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DED266-5F69-4359-94C7-0C56CA6A8888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{400925DA-4865-47B5-87C6-B5262C8F0A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400925DA-4865-47B5-87C6-B5262C8F0A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400925DA-4865-47B5-87C6-B5262C8F0A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400925DA-4865-47B5-87C6-B5262C8F0A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

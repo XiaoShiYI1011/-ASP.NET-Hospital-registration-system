@@ -1,0 +1,10 @@
+E:\卓越项目\大二卓越项目\HRRS\DAL\bin\Debug\DAL.dll
+E:\卓越项目\大二卓越项目\HRRS\DAL\bin\Debug\DAL.pdb
+E:\卓越项目\大二卓越项目\HRRS\DAL\obj\Debug\DAL.dll
+E:\卓越项目\大二卓越项目\HRRS\DAL\obj\Debug\DAL.pdb
+D:\卓越项目\大二卓越项目\HRRS\HRRS\DAL\bin\Debug\DAL.dll
+D:\卓越项目\大二卓越项目\HRRS\HRRS\DAL\bin\Debug\DAL.pdb
+D:\卓越项目\大二卓越项目\HRRS\HRRS\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\卓越项目\大二卓越项目\HRRS\HRRS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\卓越项目\大二卓越项目\HRRS\HRRS\DAL\obj\Debug\DAL.dll
+D:\卓越项目\大二卓越项目\HRRS\HRRS\DAL\obj\Debug\DAL.pdb

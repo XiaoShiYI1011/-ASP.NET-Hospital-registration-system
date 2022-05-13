@@ -1,0 +1,16 @@
+E:\卓越项目\大二卓越项目\HRRS\BLL\bin\Debug\BLL.dll
+E:\卓越项目\大二卓越项目\HRRS\BLL\bin\Debug\BLL.pdb
+E:\卓越项目\大二卓越项目\HRRS\BLL\bin\Debug\DAL.dll
+E:\卓越项目\大二卓越项目\HRRS\BLL\bin\Debug\DAL.pdb
+E:\卓越项目\大二卓越项目\HRRS\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\卓越项目\大二卓越项目\HRRS\BLL\obj\Debug\BLL.dll
+E:\卓越项目\大二卓越项目\HRRS\BLL\obj\Debug\BLL.pdb
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\bin\Debug\BLL.dll
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\bin\Debug\BLL.pdb
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\bin\Debug\DAL.dll
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\bin\Debug\DAL.pdb
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\obj\Debug\BLL.dll
+D:\卓越项目\大二卓越项目\HRRS\HRRS\BLL\obj\Debug\BLL.pdb

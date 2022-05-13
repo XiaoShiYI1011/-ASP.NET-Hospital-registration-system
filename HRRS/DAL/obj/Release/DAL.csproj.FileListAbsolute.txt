@@ -1,0 +1,6 @@
+D:\卓越项目\大二卓越项目\HRRS\HRRS\DAL\bin\Release\DAL.dll
+D:\卓越项目\大二卓越项目\HRRS\HRRS\DAL\bin\Release\DAL.pdb
+D:\卓越项目\大二卓越项目\HRRS\HRRS\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+D:\卓越项目\大二卓越项目\HRRS\HRRS\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\卓越项目\大二卓越项目\HRRS\HRRS\DAL\obj\Release\DAL.dll
+D:\卓越项目\大二卓越项目\HRRS\HRRS\DAL\obj\Release\DAL.pdb

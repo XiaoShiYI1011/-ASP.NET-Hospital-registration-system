@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterSite2.master.cs" Inherits="HRRS.MasterSite2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>医生模板页</title>
+    <link rel="stylesheet" type="text/css" href="Content/bootstrap.min.css" />
+    <link href="Content/DoctorLayout.css" rel="stylesheet" />
+    <script src="Script/jQuery-3.6.0.js" type="text/javascript" charset="utf-8"></script>
+    <script src="Script/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" class="form-horizontal" runat="server">
+        <div class="container-fluid">
+            <div class="row my-row">
+                <div class="col-md-2" id="nav-box" style="padding: 0px 0px">
+                    <div>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li class="nav-itme"><a href="DoctorIndex.aspx">医生个人信息</a></li>
+                            <li class="nav-itme"><a href="UserReservationInfo.aspx">患者预约信息</a></li>
+                            <li class="nav-itme"><a href="ReplyList.aspx"><span class="badge pull-right" id="Unread" runat="server">0</span> 患者在线问诊信息</a></li>
+                            <li><asp:LinkButton ID="OutBtn" runat="server" OnClick="OutBtn_Click">退出</asp:LinkButton></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
